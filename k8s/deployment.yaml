@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: vasimnjamadar/k8s-cicd-demo:19
+          image: vasimnjamadar/k8s-cicd-demo:21
           ports:
             - containerPort: 80
           readinessProbe:

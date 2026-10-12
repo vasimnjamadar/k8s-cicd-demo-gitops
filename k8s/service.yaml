@@ -4,10 +4,10 @@ metadata:
   name: k8s-cicd-demo
   namespace: dev
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: k8s-cicd-demo
   ports:
     - protocol: TCP
-      port: 8082
+      port: 8085
       targetPort: 80
