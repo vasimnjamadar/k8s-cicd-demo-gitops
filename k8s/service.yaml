@@ -9,5 +9,5 @@ spec:
     app: k8s-cicd-demo
   ports:
     - protocol: TCP
-      port: 8085
+      port: 8089
       targetPort: 80
